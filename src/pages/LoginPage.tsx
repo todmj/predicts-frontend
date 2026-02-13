@@ -95,18 +95,6 @@ export const LoginPage = () => {
             </Button>
           </form>
 
-          {/* Demo accounts */}
-          <div className="mt-8 pt-6 border-t border-white/10">
-            <p className="text-[#C6FF2F] text-xs uppercase tracking-wider font-semibold mb-3">Demo Accounts</p>
-            <div className="grid grid-cols-2 gap-2 text-sm">
-              <div className="text-[#EAEAF0]">
-                <span className="text-[#767771]">User:</span> alice / alice123
-              </div>
-              <div className="text-[#EAEAF0]">
-                <span className="text-[#767771]">Admin:</span> admin / admin123
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
