@@ -1,0 +1,2 @@
+export { PositionsTable } from './PositionsTable';
+
