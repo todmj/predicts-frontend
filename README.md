@@ -173,6 +173,45 @@ npm run test:coverage
 - **Probabilities**: Percentage with 1 decimal (e.g., 65.0%)
 - **Money**: 2 decimal places with ¢ symbol (e.g., ¢100.00)
 
+## Deployment
+
+### Vercel (Recommended)
+
+1. **Push to GitHub**
+   ```bash
+   git add .
+   git commit -m "Prepare for Vercel deployment"
+   git push origin main
+   ```
+
+2. **Import to Vercel**
+   - Go to [vercel.com](https://vercel.com)
+   - Click "New Project"
+   - Import your GitHub repository
+   - Vercel will auto-detect the Vite framework
+
+3. **Configure Environment Variables**
+   In Vercel project settings, add:
+   ```
+   VITE_API_BASE_URL=https://your-backend-url.com/api
+   ```
+
+4. **Deploy**
+   - Click "Deploy"
+   - Your app will be live at `https://your-project.vercel.app`
+
+### Environment Variables
+
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `VITE_API_BASE_URL` | Backend API base URL | `https://api.example.com/api` |
+
+### Important Notes
+
+- The frontend expects the backend to be deployed and accessible at `VITE_API_URL`
+- WebSocket connections require the backend to support CORS for your Vercel domain
+- For local development, use `http://localhost:8080/api`
+
 ## License
 
 MIT
