@@ -94,7 +94,6 @@ export const LoginPage = () => {
               Sign In
             </Button>
           </form>
-
         </div>
       </div>
     </div>
