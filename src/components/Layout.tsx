@@ -35,7 +35,7 @@ export const Layout = ({ children }: LayoutProps) => {
             {/* Left side - Logo and Nav */}
             <div className="flex items-center gap-10">
               <Link to="/markets" className="flex items-center gap-2.5">
-                <span className="text-xl font-bold text-white">PredictsFuture</span>
+                <span className="text-xl font-bold text-white">Predictions</span>
               </Link>
 
               <div className="hidden md:flex items-center gap-1">

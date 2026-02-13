@@ -47,7 +47,7 @@ export const LoginPage = () => {
       <div className="w-full max-w-md">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-[#1C1526] mb-2">PredictsFuture</h1>
+          <h1 className="text-4xl font-bold text-[#1C1526] mb-2">Predictions</h1>
           <p className="text-[#767771] text-lg">Prediction Market Demo</p>
         </div>
 
