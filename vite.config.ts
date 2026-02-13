@@ -4,7 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // @ts-expect-error - vite beta version conflict with vitest
   plugins: [react(), tailwindcss()],
   test: {
     globals: true,
